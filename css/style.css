@@ -1,1 +1,157 @@
+body{
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+
+.navbar{
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+    margin-bottom: 30px;
+}
+
+.navbar-left svg{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.navbar-left div{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div:hover,
+.find-a-store:hover{
+    color: #00754a;;
+}
+
+.navbar-left,
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *,
+.navbar-right > *{
+    margin: 10px;
+}
+
+.find-a-store{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in,
+.join-now{
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+}
+
+.join-now{
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover{
+    background-color: rgba(0,0,0,.7);
+}
+
+.sign-in:hover{
+    background-color: rgba(0,0,0,.1);
+}
+
+.product{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.product-left img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product-left,
+.product-right{
+    max-width: 50%;
+    width: 50%;
+}
+
+.product-right{
+    padding: 32px 16px 32px 16px;
+    margin: auto;
+}
+
+.product-title{
+    text-align: center;
+    width: 60%;
+    text-wrap:wrap;
+    font-size: 50px;
+    color: #1e3932;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.product-description{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    text-wrap:wrap;
+    font-size: 24px;
+    color: #1e3932;
+    font-weight: 100;
+    line-height: 1.75
+}
+
+
+
+.product-button{
+    border: 1px solid rgb(0, 0, 0);
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    color: #1e3932;
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.product-button:hover{
+    background-color: rgba(0,0,0,.1);
+}
+
+.product-button-white{
+    color: white;
+    border-color: white;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer div{
+    width: 50%;
+    margin-bottom: 110px;
+    font-size: 13px;
+    line-height: 1.8;
+    font-weight:lighter;
+}
+
+
+
+
+
+
+
 
